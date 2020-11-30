@@ -1,0 +1,177 @@
+<html>
+<head>
+<meta charset="utf-8">
+    
+
+<link rel="stylesheet" href="ess1.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title></title>
+</head>
+<body  style="background-color: white;">
+    <form class="login100-form validate-form" method="POSt" action="examinForm.php">
+       
+        <legend><b style ="
+            margin-left: 43%; color : green" >Remplir le Teste   </b>
+
+        </legend>
+        
+            <div  class="colone" >
+                <div class="ligne" style="    display: flex;
+                width: 100%;
+                margin-left: 1%;
+                margin-top: 12px;">
+
+                    <div class="step_question1" >
+                        <div>
+                          <div > <img src="imagePhp/Capture7.PNG" ></div>
+                            <p class="lead"> <br> Syndrome grippal ? <span style="font-size: 16px;" class="arb"><br> هل لديك أعراض الانفلونزا؟ </span></p>
+                            <div class="funkyradio"   style="display: flex;">
+                                <div class="funkyradio-info">
+                                    <input type="radio" name="SG" id="radio111" value="1" />
+                                    <label for="radio111">Oui </label>
+                                </div>
+                                <div class="funkyradio-info" style="    margin-left: 37px;
+                                ">
+                                    <input type="radio" name="SG" id="radio112" value="0" />
+                                    <label for="radio112">Non </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step_question1">
+                        <div >
+                          <div align="center"> <img src="imagePhp/Capture1.PNG"  style="    margin-left: -194px;"></div>
+                            <p class="lead">Avez-vous de la fièvre ? <br><span style="font-size: 16px;" class="arb"></span>هل تعاني من الحمى ؟</span></p>
+                            <div class="funkyradio">
+                                <select name="fievre" >
+                                  <option value="2" selected>plus que 40°</option>
+                                  <option value="1">entre 38° et 40°</option>
+                                  <option value="0">pas de fièvre 37°</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step_question1">
+                        <div >
+                          <div align="center"> <img src="imagePhp/Capture3.PNG" style="    margin-left: -155px;" ></div>
+                            <p class="lead">Avez-vous de Maux de tète? <br><span style="font-size: 16px;" class="arb">هل لديك صداع؟</span></p>
+                            <div class="funkyradio">
+                                <select name="maux" >
+                                  <option value="2" selected>fort</option>
+                                  <option value="1">supportable ou moyen</option>
+                                  <option value="0">pas de douleur</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="step_question1" style="width: 431px;">
+                        <div>
+                          <div align="center"> <img src="imagePhp/Capture4.PNG" style="    margin-left: -76px;
+                            "></div>
+                            <p class="lead">Souffrez-vous d'une fatigue inhabituelle? <br><span style="font-size: 16px;" class="arb">هل تعاني من أي تعب غير عادي؟</span></p>
+                            <div class="funkyradio">
+                                <select name="fatigue">
+                                  <option value="2" selected> courbature</option>
+                                  <option value="1">fatigué</option>
+                                  <option value="0">normal</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ligne" style= "  display: flex;
+                width: 100%;
+                margin-left: 1%;"
+            >
+                    <div class="step_question1">
+                        <div >
+                          <div align="center"> <img src="imagePhp/Capture5.PNG"  style=" margin-left: -180px ;"></div>
+                            <p class="lead">Avez-vous un manque de souffle inhabituel  ? <br><span style="font-size: 16px;" class="arb">هل تعاني من ضيق غير عادي في التنفس ؟ </span></p>
+                            <div class="funkyradio">
+                                <select  name="souffle">
+                                  <option value="2" selected>problème respiratoire et thoracique</option>
+                                  <option value="1">rhume</option>
+                                  <option value="0">respiration normal</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="step_question1">
+                        <div>
+                          <div align="center"> <img src="imagePhp/Capture2.PNG" style="    margin-left: -194px;"></div>
+                            <p class="lead">Avez-vous une toux ? <br><span style="font-size: 16px;" class="arb">هل لديك سعال؟ </span></p>
+                            <div class="funkyradio">
+                                <select name="toux" >
+                                  <option value="2" selected>toux sec et aigu</option>
+                                  <option value="1">toux passagère</option>
+                                  <option value="0">pas de toux </option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step_question1">
+                        <div>
+                          <div align="center"> <img src="imagePhp/Capture8.PNG" style="    margin-left: -155px;"></div>
+                            <p class="lead">Avez-vous une maladie maladies chroniques ?<br><span style="font-size: 16px;" class="arb">هل لديك امراض مزمنة؟
+                            </span></p>
+                            <div class="funkyradio">
+                                <select name="maladies" >
+                                  <option value="2" selected>toux sec et aigu</option>
+                                  <option value="1">toux passagère</option>
+                                  <option value="0">pas de toux </option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step_question1">
+                        <div>
+                          <div align="center"> <img src="imagePhp/Capture6.PNG" style="    margin-left: -76px;"></div>
+                            <p class="lead">Avez vous été en contact étroit avec un cas confirmé de Covid-19 ?<br><span style="font-size: 16px;" class="arb">هل كان لديك اتصال بشخص مصاب بـفيروس كورونا؟
+                            </span></p>
+                            <div class="funkyradio" style="    display: flex;">
+                                <div class="funkyradio-info">
+                                    <input type="radio" name="contact" id="radio111" value="1" />
+                                    <label for="radio111">Oui </label>
+                                </div>
+                                <div class="funkyradio-info" style="    margin-left: 48px;">
+                                    <input type="radio" name="contact" id="radio112" value="0"  />
+                                    <label for="radio112">Non </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="ligne" style="    display: flex;
+                width: 54%;
+                margin-left: 1%;
+                margin-top: 13px;
+
+            ">
+                    <div class="container-login100-form-btn btn btn-success" style="width: 17%;">
+                        <button class="login100-form-btn" name="examin" style=   " background-color: white;
+                        width: 77%;">
+                            Tester
+                        </button>
+                        <!-- <button type="button" name="examin" class="btn btn-success">Success</button> -->
+                    </div>
+                   
+                </div>
+               
+            </div>
+         
+
+        
+                
+</form>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>
